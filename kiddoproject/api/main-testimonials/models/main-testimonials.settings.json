@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "maintestimonials",
+  "info": {
+    "name": "Main Testimonials"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "testimonial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "producttestimonials.home-testimonials"
+    }
+  }
+}

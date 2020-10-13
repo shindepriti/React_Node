@@ -1,0 +1,617 @@
+[
+	{
+		"date": "1/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 2,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 1,
+				"left_kid": 3
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 7
+			},
+			{
+				"time": 16,
+				"left_parent": 1,
+				"left_kid": 1
+			}
+		]
+	},
+	{
+		"date": "2/08/2020",
+		"slots": [
+			{
+				"time": 12,
+				"left_parent": 5,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "3/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 5,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "4/08/2020",
+		"slots": [
+			{
+				"time": 14,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "5/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 12,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 14,
+				"left_parent": 5,
+				"left_kid": 5
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "6/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 6,
+				"left_kid": 13
+			}
+		]
+	},
+	{
+		"date": "7/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 3,
+				"left_kid": 3
+			}
+		]
+	},
+	{
+		"date": "8/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 2,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 1,
+				"left_kid": 3
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 7
+			},
+			{
+				"time": 16,
+				"left_parent": 1,
+				"left_kid": 1
+			}
+		]
+	},
+	{
+		"date": "9/08/2020",
+		"slots": [
+			{
+				"time": 12,
+				"left_parent": 5,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "10/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 5,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "11/08/2020",
+		"slots": [
+			{
+				"time": 14,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "12/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 12,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 14,
+				"left_parent": 5,
+				"left_kid": 5
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "13/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 6,
+				"left_kid": 13
+			}
+		]
+	},
+	{
+		"date": "14/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 3,
+				"left_kid": 3
+			}
+		]
+	},
+	{
+		"date": "15/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 3,
+				"left_kid": 3
+			}
+		]
+	},
+	{
+		"date": "16/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 2,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 1,
+				"left_kid": 3
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 7
+			},
+			{
+				"time": 16,
+				"left_parent": 1,
+				"left_kid": 1
+			}
+		]
+	},
+	{
+		"date": "17/08/2020",
+		"slots": [
+			{
+				"time": 12,
+				"left_parent": 5,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "18/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 5,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "19/08/2020",
+		"slots": [
+			{
+				"time": 14,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "20/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 12,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 14,
+				"left_parent": 5,
+				"left_kid": 5
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "21/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 6,
+				"left_kid": 13
+			}
+		]
+	},
+	{
+		"date": "22/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 3,
+				"left_kid": 3
+			}
+		]
+	},
+	{
+		"date": "23/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 2,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 1,
+				"left_kid": 3
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 7
+			},
+			{
+				"time": 16,
+				"left_parent": 1,
+				"left_kid": 1
+			}
+		]
+	},
+	{
+		"date": "24/08/2020",
+		"slots": [
+			{
+				"time": 12,
+				"left_parent": 5,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "25/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 5,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "26/08/2020",
+		"slots": [
+			{
+				"time": 14,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "27/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 12,
+				"left_parent": 6,
+				"left_kid": 13
+			},
+			{
+				"time": 14,
+				"left_parent": 5,
+				"left_kid": 5
+			},
+			{
+				"time": 16,
+				"left_parent": 5,
+				"left_kid": 5
+			}
+		]
+	},
+	{
+		"date": "28/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 6,
+				"left_kid": 13
+			}
+		]
+	},
+	{
+		"date": "29/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 3,
+				"left_kid": 3
+			}
+		]
+	},
+	{
+		"date": "30/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 3,
+				"left_kid": 3
+			}
+		]
+	},
+	{
+		"date": "31/08/2020",
+		"slots": [
+			{
+				"time": 10,
+				"left_parent": 3,
+				"left_kid": 4
+			},
+			{
+				"time": 12,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 14,
+				"left_parent": 4,
+				"left_kid": 12
+			},
+			{
+				"time": 16,
+				"left_parent": 3,
+				"left_kid": 3
+			}
+		]
+	}
+]

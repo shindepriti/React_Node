@@ -1,0 +1,21 @@
+.footer-singup-wrap .mb-3 {
+    margin-bottom: 0 !important;
+}
+
+.fascinates-section-card{
+    flex-wrap: inherit !important;
+}
+
+/*----------------------- Showcase ----------------------------*/
+.showcase-sec-wrap .carousel-cell .carousel-cell::before {
+    box-shadow: none !important
+}
+
+
+.ml-1,
+.mx-1 {
+  margin-left: 0rem !important; }
+
+.mr-1,
+.mx-1 {
+  margin-right: 0rem !important; }

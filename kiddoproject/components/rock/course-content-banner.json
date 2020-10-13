@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_rock_course_content_banners",
+  "info": {
+    "name": "course_content_banner",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "course_content_title": {
+      "type": "string"
+    },
+    "course_content_description": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "course_content_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

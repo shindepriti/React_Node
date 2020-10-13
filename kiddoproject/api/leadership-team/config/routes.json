@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/leadership-teams",
+      "handler": "leadership-team.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leadership-teams/count",
+      "handler": "leadership-team.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leadership-teams/:id",
+      "handler": "leadership-team.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/leadership-teams",
+      "handler": "leadership-team.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/leadership-teams/:id",
+      "handler": "leadership-team.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/leadership-teams/:id",
+      "handler": "leadership-team.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

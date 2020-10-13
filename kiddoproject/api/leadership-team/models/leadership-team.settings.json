@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leadership_teams",
+  "info": {
+    "name": "Leadership Team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "leader_name": {
+      "type": "string",
+      "required": true
+    },
+    "leader_position": {
+      "type": "string",
+      "required": true
+    },
+    "leader_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

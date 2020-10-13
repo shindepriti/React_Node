@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouthistory",
+  "info": {
+    "name": "About History"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "historyabout": {
+      "type": "component",
+      "repeatable": true,
+      "component": "history.history"
+    }
+  }
+}

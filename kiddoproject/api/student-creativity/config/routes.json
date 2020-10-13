@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/student-creativities",
+      "handler": "student-creativity.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/student-creativities/count",
+      "handler": "student-creativity.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/student-creativities/:id",
+      "handler": "student-creativity.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/student-creativities",
+      "handler": "student-creativity.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/student-creativities/:id",
+      "handler": "student-creativity.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/student-creativities/:id",
+      "handler": "student-creativity.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

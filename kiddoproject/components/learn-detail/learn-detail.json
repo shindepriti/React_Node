@@ -1,0 +1,23 @@
+{
+  "collectionName": "learn_detail",
+  "info": {
+    "name": "Learn_detail",
+    "icon": "bible"
+  },
+  "options": {},
+  "attributes": {
+    "learn_detail": {
+      "type": "richtext",
+      "required": true
+    },
+    "learn_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

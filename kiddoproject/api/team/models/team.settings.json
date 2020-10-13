@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team",
+  "info": {
+    "name": "Team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "required": true
+    },
+    "position_text": {
+      "type": "string",
+      "required": true
+    },
+    "team_tag": {
+      "type": "string"
+    },
+    "person_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "categories": {
+      "collection": "categories",
+      "via": "teams",
+      "dominant": true
+    }
+  }
+}

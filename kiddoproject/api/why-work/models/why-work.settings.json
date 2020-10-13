@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whywork",
+  "info": {
+    "name": "WhyWork"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "work": {
+      "type": "component",
+      "repeatable": false,
+      "component": "rock.rock"
+    }
+  }
+}

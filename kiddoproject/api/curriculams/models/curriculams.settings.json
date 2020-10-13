@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "curriculams",
+  "info": {
+    "name": "Curriculams"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "products": {
+      "collection": "products",
+      "via": "product_curriculam"
+    },
+    "curriculam_title": {
+      "type": "string"
+    }
+  }
+}

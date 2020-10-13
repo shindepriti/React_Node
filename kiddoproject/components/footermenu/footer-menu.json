@@ -1,0 +1,18 @@
+{
+  "collectionName": "footermenu",
+  "info": {
+    "name": "FooterMenu",
+    "icon": "layer-group"
+  },
+  "options": {},
+  "attributes": {
+    "menu_name": {
+      "type": "string",
+      "required": true
+    },
+    "menu_link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

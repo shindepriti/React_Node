@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webreview",
+  "info": {
+    "name": "WebReview"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "webreviewname": {
+      "type": "string",
+      "required": true
+    },
+    "webipaddress": {
+      "type": "string",
+      "required": true
+    },
+    "webreviewlike": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

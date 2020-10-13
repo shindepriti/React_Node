@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "producttype",
+  "info": {
+    "name": "Product Type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "product_type": {
+      "type": "string",
+      "required": true
+    },
+    "product_type_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "product_type_show": {
+      "type": "boolean",
+      "default": true
+    },
+    "product_topics": {
+      "via": "product_types",
+      "collection": "product-topic",
+      "dominant": true
+    },
+    "product": {
+      "via": "product_type",
+      "collection": "products"
+    }
+  }
+}

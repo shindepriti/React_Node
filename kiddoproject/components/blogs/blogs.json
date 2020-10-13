@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blogs_blogs",
+  "info": {
+    "name": "Blogs",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "badge_color": {
+      "type": "string",
+      "default": "badge-primary"
+    },
+    "blog_title": {
+      "type": "string",
+      "required": true
+    },
+    "blog_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "blog_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "badge_title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

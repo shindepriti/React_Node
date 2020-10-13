@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/life-at-kiddocodes",
+      "handler": "life-at-kiddocode.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/life-at-kiddocodes/count",
+      "handler": "life-at-kiddocode.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/life-at-kiddocodes/:id",
+      "handler": "life-at-kiddocode.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/life-at-kiddocodes",
+      "handler": "life-at-kiddocode.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/life-at-kiddocodes/:id",
+      "handler": "life-at-kiddocode.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/life-at-kiddocodes/:id",
+      "handler": "life-at-kiddocode.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

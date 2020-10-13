@@ -1,0 +1,27 @@
+{
+  "collectionName": "eventgallary",
+  "info": {
+    "name": "EventGallary",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "event_name": {
+      "type": "string",
+      "required": true
+    },
+    "event_images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "event_description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

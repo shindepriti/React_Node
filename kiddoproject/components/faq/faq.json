@@ -1,0 +1,18 @@
+{
+  "collectionName": "faq",
+  "info": {
+    "name": "Faq",
+    "icon": "headset"
+  },
+  "options": {},
+  "attributes": {
+    "faq_question_name": {
+      "type": "text",
+      "required": true
+    },
+    "faq_question_answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

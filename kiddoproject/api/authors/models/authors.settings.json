@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "name": "Authors"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "author_detail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "author.author"
+    },
+    "product": {
+      "via": "author",
+      "model": "products"
+    }
+  }
+}

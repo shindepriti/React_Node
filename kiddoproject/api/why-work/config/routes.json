@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/why-works",
+      "handler": "why-work.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/why-works/count",
+      "handler": "why-work.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/why-works/:id",
+      "handler": "why-work.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/why-works",
+      "handler": "why-work.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/why-works/:id",
+      "handler": "why-work.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/why-works/:id",
+      "handler": "why-work.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

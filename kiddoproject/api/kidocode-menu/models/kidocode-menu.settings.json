@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kidocodemenu",
+  "info": {
+    "name": "KidocodeMenu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "kidcode": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footermenu.footer-menu",
+      "required": true
+    }
+  }
+}

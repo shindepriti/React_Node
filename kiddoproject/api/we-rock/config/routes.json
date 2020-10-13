@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/we-rocks",
+      "handler": "we-rock.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/we-rocks/count",
+      "handler": "we-rock.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/we-rocks/:id",
+      "handler": "we-rock.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/we-rocks",
+      "handler": "we-rock.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/we-rocks/:id",
+      "handler": "we-rock.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/we-rocks/:id",
+      "handler": "we-rock.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

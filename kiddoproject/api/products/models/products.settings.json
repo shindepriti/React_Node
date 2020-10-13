@@ -1,0 +1,129 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Products"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "product_name": {
+      "type": "string",
+      "required": true
+    },
+    "product_price": {
+      "type": "string"
+    },
+    "product_sell_price": {
+      "type": "string"
+    },
+    "course_stat": {
+      "model": "course-stat",
+      "via": "products"
+    },
+    "product_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "author": {
+      "model": "authors",
+      "via": "product"
+    },
+    "product_introduction": {
+      "type": "richtext",
+      "required": true
+    },
+    "bundle": {
+      "model": "bundle",
+      "via": "bundle_products"
+    },
+    "semester_learning_path": {
+      "type": "component",
+      "repeatable": true,
+      "component": "learn.learn",
+      "required": false
+    },
+    "productlearn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "productlearn.product-learn"
+    },
+    "instructor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "instrcutors.instructors"
+    },
+    "product_date": {
+      "type": "date"
+    },
+    "product_start_time": {
+      "type": "time"
+    },
+    "product_end_time": {
+      "type": "time"
+    },
+    "product_total_seats": {
+      "type": "string",
+      "required": false
+    },
+    "product_remain_seats": {
+      "type": "string"
+    },
+    "product_event_map": {
+      "type": "richtext"
+    },
+    "product_slug": {
+      "type": "uid",
+      "targetField": "product_name"
+    },
+    "product_hours": {
+      "type": "string",
+      "required": true
+    },
+    "product_courses": {
+      "type": "string",
+      "required": true
+    },
+    "product_type": {
+      "model": "product-type",
+      "via": "product"
+    },
+    "product_topic": {
+      "model": "product-topic",
+      "via": "product"
+    },
+    "contents": {
+      "collection": "content",
+      "via": "product"
+    },
+    "lesson": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rock.lesson"
+    },
+    "product_testimonials": {
+      "via": "testimonials",
+      "collection": "product-testimonials"
+    },
+    "course_content_banners": {
+      "via": "products",
+      "collection": "course-content-banner"
+    },
+    "product_curriculam": {
+      "via": "products",
+      "model": "curriculams"
+    },
+    "product_events": {
+      "via": "events",
+      "collection": "events"
+    }
+  }
+}

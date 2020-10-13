@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_bundlepack_bundle_packs",
+  "info": {
+    "name": "BundlePack",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "bundle_title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

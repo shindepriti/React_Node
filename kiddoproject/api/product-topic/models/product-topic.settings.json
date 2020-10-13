@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "producttopic",
+  "info": {
+    "name": "Product Topic"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "product_topic_name": {
+      "type": "string",
+      "required": true
+    },
+    "product_topic_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "product_topic_show": {
+      "type": "boolean",
+      "default": true
+    },
+    "product_types": {
+      "collection": "product-type",
+      "via": "product_topics"
+    },
+    "product": {
+      "via": "product_topic",
+      "collection": "products"
+    }
+  }
+}

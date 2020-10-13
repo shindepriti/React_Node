@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kidocode-menus",
+      "handler": "kidocode-menu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kidocode-menus/count",
+      "handler": "kidocode-menu.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kidocode-menus/:id",
+      "handler": "kidocode-menu.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kidocode-menus",
+      "handler": "kidocode-menu.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kidocode-menus/:id",
+      "handler": "kidocode-menu.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kidocode-menus/:id",
+      "handler": "kidocode-menu.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

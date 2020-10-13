@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pageblog",
+  "info": {
+    "name": "Page Blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "blog_title": {
+      "type": "string",
+      "required": true
+    },
+    "blog_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "badge_color": {
+      "type": "string",
+      "required": true
+    },
+    "badge_title": {
+      "type": "string",
+      "required": true
+    },
+    "blog_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

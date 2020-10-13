@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "HomeBanner",
+  "info": {
+    "name": "Home Banner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "home_banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "header_file_type": {
+      "type": "string",
+      "required": true
+    },
+    "banner_video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

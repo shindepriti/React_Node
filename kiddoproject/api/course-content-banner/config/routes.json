@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/course-content-banners",
+      "handler": "course-content-banner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/course-content-banners/count",
+      "handler": "course-content-banner.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/course-content-banners/:id",
+      "handler": "course-content-banner.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/course-content-banners",
+      "handler": "course-content-banner.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/course-content-banners/:id",
+      "handler": "course-content-banner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/course-content-banners/:id",
+      "handler": "course-content-banner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

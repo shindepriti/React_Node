@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "course_instructors",
+  "info": {
+    "name": "Course Instructors"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "instructor_name": {
+      "type": "string",
+      "required": true
+    },
+    "instructor_department": {
+      "type": "string"
+    },
+    "instructor_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "HeaderTitle",
+  "info": {
+    "name": "Header Title"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header_title": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

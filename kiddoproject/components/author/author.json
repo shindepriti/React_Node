@@ -1,0 +1,31 @@
+{
+  "collectionName": "author",
+  "info": {
+    "name": "Author",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "author_name": {
+      "type": "string",
+      "required": true
+    },
+    "author_intro": {
+      "type": "text",
+      "required": true
+    },
+    "author_kiddo_descriprion": {
+      "type": "text",
+      "required": true
+    },
+    "author_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

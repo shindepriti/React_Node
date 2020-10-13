@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coursestat",
+  "info": {
+    "name": "CourseStat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cousrse_stat_name": {
+      "type": "string",
+      "required": true
+    },
+    "productcourse": {
+      "type": "component",
+      "repeatable": true,
+      "component": "coursestats.course-stats",
+      "required": true
+    },
+    "course_stat": {
+      "type": "boolean",
+      "default": true
+    },
+    "products": {
+      "via": "course_stat",
+      "collection": "products"
+    }
+  }
+}

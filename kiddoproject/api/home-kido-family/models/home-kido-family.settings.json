@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_kido_families",
+  "info": {
+    "name": "HomeKidoFamily"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "department": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "name": "Content"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "course_content": {
+      "type": "string"
+    },
+    "course_details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rock.course-details"
+    },
+    "product": {
+      "via": "contents",
+      "model": "products"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Ataglance",
+  "info": {
+    "name": "At a Glance"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "at_a_glance_number_1": {
+      "type": "string",
+      "required": true
+    },
+    "at_a_glance_text_1": {
+      "type": "string",
+      "required": true
+    },
+    "at_a_glance_number_2": {
+      "type": "string",
+      "required": true
+    },
+    "at_a_glance_text_2": {
+      "type": "string"
+    },
+    "at_a_glance_number_3": {
+      "type": "string",
+      "required": true
+    },
+    "at_a_glance_text_3": {
+      "type": "string",
+      "required": true
+    },
+    "at_a_glance_number_4": {
+      "type": "string",
+      "required": true
+    },
+    "at_a_glance_text_4": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

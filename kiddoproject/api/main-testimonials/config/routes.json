@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/main-testimonials",
+      "handler": "main-testimonials.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/main-testimonials/count",
+      "handler": "main-testimonials.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/main-testimonials/:id",
+      "handler": "main-testimonials.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/main-testimonials",
+      "handler": "main-testimonials.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/main-testimonials/:id",
+      "handler": "main-testimonials.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/main-testimonials/:id",
+      "handler": "main-testimonials.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

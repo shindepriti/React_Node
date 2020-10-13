@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_productcategory_product_categories",
+  "info": {
+    "name": "Product Category",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "product_category_name": {
+      "type": "string",
+      "required": true
+    },
+    "product_category_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "product_category_show": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

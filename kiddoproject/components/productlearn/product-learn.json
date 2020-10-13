@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_productlearn_product_learns",
+  "info": {
+    "name": "Product Learn",
+    "icon": "envelope-square"
+  },
+  "options": {},
+  "attributes": {
+    "learn_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "learn_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

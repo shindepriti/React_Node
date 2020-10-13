@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "careerposition",
+  "info": {
+    "name": "career_position"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "position_title": {
+      "type": "string",
+      "required": true
+    },
+    "position_type": {
+      "type": "string",
+      "required": true
+    },
+    "position_location": {
+      "type": "string",
+      "required": true
+    },
+    "position_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "position_slug": {
+      "type": "string",
+      "required": true
+    },
+    "position_show": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

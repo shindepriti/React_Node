@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_rock_lessons",
+  "info": {
+    "name": "lesson",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "lesson_title": {
+      "type": "string"
+    },
+    "lesson_text": {
+      "type": "string",
+      "maxLength": 50
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqquestion",
+  "info": {
+    "name": "FaqQuestion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "faqquestions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faq.faq"
+    }
+  }
+}

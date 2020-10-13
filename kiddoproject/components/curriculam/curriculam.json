@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_curriculam_curriculams",
+  "info": {
+    "name": "Curriculam",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "curriculam_title": {
+      "type": "text",
+      "required": true
+    },
+    "curriculam_description": {
+      "type": "text",
+      "required": true
+    },
+    "curriculam_video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

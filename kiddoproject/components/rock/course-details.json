@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_rock_course_details",
+  "info": {
+    "name": "course_details",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "course_text": {
+      "type": "string"
+    },
+    "course_time": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teamheader",
+  "info": {
+    "name": "Team Header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "team_header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "commondescription.common-description",
+      "required": true
+    }
+  }
+}

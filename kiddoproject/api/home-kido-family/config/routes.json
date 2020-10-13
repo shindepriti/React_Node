@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-kido-families",
+      "handler": "home-kido-family.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-kido-families/count",
+      "handler": "home-kido-family.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-kido-families/:id",
+      "handler": "home-kido-family.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/home-kido-families",
+      "handler": "home-kido-family.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-kido-families/:id",
+      "handler": "home-kido-family.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-kido-families/:id",
+      "handler": "home-kido-family.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "producttestimonials",
+  "info": {
+    "name": "Product Testimonials"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ProductTestimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "producttestimonials.home-testimonials"
+    },
+    "testimonials": {
+      "collection": "products",
+      "via": "product_testimonials",
+      "dominant": true
+    },
+    "testimonial_designation": {
+      "type": "string"
+    }
+  }
+}

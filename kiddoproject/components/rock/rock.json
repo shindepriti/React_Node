@@ -1,0 +1,36 @@
+{
+  "collectionName": "rock",
+  "info": {
+    "name": "Rock",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "rock_title": {
+      "type": "string",
+      "required": true
+    },
+    "rock_description": {
+      "type": "text",
+      "required": true
+    },
+    "rock_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "rock_icon_mobile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

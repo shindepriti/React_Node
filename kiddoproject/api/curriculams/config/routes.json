@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/curriculams",
+      "handler": "curriculams.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/curriculams/count",
+      "handler": "curriculams.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/curriculams/:id",
+      "handler": "curriculams.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/curriculams",
+      "handler": "curriculams.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/curriculams/:id",
+      "handler": "curriculams.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/curriculams/:id",
+      "handler": "curriculams.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

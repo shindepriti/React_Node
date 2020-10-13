@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "werock",
+  "info": {
+    "name": "We Rock"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "WhyRock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rock.rock",
+      "required": true
+    }
+  }
+}

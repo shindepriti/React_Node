@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "course_content_banners",
+  "info": {
+    "name": "Course Content Banner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "course_content_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "rock.course-content-banner"
+    },
+    "products": {
+      "collection": "products",
+      "via": "course_content_banners",
+      "dominant": true
+    }
+  }
+}

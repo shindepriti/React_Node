@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_history_histories",
+  "info": {
+    "name": "History",
+    "icon": "portrait"
+  },
+  "options": {},
+  "attributes": {
+    "history_description": {
+      "type": "text",
+      "required": true
+    },
+    "history_date": {
+      "type": "date"
+    }
+  }
+}

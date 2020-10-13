@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Events"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "events": {
+      "collection": "products",
+      "via": "product_events",
+      "dominant": true
+    },
+    "event_title": {
+      "type": "string"
+    },
+    "event_description": {
+      "type": "text"
+    },
+    "event_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

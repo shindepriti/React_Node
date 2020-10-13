@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footerlinks",
+  "info": {
+    "name": "FooterLinks"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "footer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footermenu.footer-menu"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bundle",
+  "info": {
+    "name": "Bundle"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Bundle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bundlepack.bundle-pack"
+    },
+    "bundle_products": {
+      "via": "bundle",
+      "collection": "products"
+    }
+  }
+}

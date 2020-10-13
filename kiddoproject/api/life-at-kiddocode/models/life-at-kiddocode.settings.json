@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lifeatkiddocode",
+  "info": {
+    "name": "life_at_kiddocode"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "life_header_title": {
+      "type": "string",
+      "required": true
+    },
+    "life_kiddo_description": {
+      "type": "text",
+      "required": true
+    },
+    "life_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

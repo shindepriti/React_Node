@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_coursestats_course_stats",
+  "info": {
+    "name": "CourseStats",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "course_text": {
+      "type": "string",
+      "required": true
+    },
+    "course_count": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "Home_Testimonials",
+  "info": {
+    "name": "HomeTestimonials",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "testimonial_description": {
+      "type": "text",
+      "required": true
+    },
+    "testimonial_founder_name": {
+      "type": "string",
+      "required": true
+    },
+    "testimonial_full_name": {
+      "type": "string",
+      "required": true
+    },
+    "testimonial_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

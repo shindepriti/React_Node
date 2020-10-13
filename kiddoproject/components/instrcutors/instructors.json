@@ -1,0 +1,34 @@
+{
+  "collectionName": "instructors",
+  "info": {
+    "name": "Instructors",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "team_name": {
+      "type": "string",
+      "required": true
+    },
+    "team_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "team_position": {
+      "type": "string"
+    },
+    "team_decription": {
+      "type": "text",
+      "required": true
+    },
+    "team_title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

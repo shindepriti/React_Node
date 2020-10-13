@@ -1,0 +1,19 @@
+{
+  "collectionName": "learn",
+  "info": {
+    "name": "Learn",
+    "icon": "book-medical"
+  },
+  "options": {},
+  "attributes": {
+    "learn_detail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "learn-detail.learn-detail"
+    },
+    "semester_learning_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

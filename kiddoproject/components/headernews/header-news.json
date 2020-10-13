@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_headernews_header_news",
+  "info": {
+    "name": "Header News",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "news_description": {
+      "type": "text",
+      "required": true
+    },
+    "news_show": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
